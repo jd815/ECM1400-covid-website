@@ -1,0 +1,1375 @@
+INFO:2020-12-04 08:53:35,176127.0.0.1 - - [04/Dec/2020 08:53:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 08:53:53,137System starting
+INFO:2020-12-04 08:53:53,262 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:54:00,8362020-12-04T08:54
+INFO:2020-12-04 08:54:06,618127.0.0.1 - - [04/Dec/2020 08:54:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 08:54:17,186System starting
+INFO:2020-12-04 08:54:17,311 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:54:22,776127.0.0.1 - - [04/Dec/2020 08:54:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 08:56:08,700System starting
+INFO:2020-12-04 08:56:08,869 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:56:12,012127.0.0.1 - - [04/Dec/2020 08:56:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 08:56:28,967System starting
+INFO:2020-12-04 08:56:29,101 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:56:31,776127.0.0.1 - - [04/Dec/2020 08:56:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 08:56:46,493System starting
+INFO:2020-12-04 08:56:46,622 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:56:49,336127.0.0.1 - - [04/Dec/2020 08:56:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 08:57:05,615System starting
+INFO:2020-12-04 08:57:05,744 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:57:08,735127.0.0.1 - - [04/Dec/2020 08:57:08] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 08:57:30,085Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 08:57:30,342https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 08:57:30,3492020-12-04T07:58
+DEBUG:2020-12-04 08:57:38,494Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 08:57:38,699https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 08:57:38,7062020-12-04T08:57
+INFO:2020-12-04 08:57:52,136127.0.0.1 - - [04/Dec/2020 08:57:52] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 08:58:06,310Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 08:58:06,648https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+ERROR:2020-12-04 08:58:07,277PyTTSx3 Endloop error
+ERROR:2020-12-04 08:58:08,775Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 129, in home
+    if check_alarms() is not None:
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 105, in check_alarms
+    s.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sched.py", line 151, in run
+    action(*argument, **kwargs)
+TypeError: announce() takes 1 positional argument but 214 were given
+INFO:2020-12-04 08:58:08,784127.0.0.1 - - [04/Dec/2020 08:58:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 08:59:09,961System starting
+INFO:2020-12-04 08:59:10,091 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 08:59:12,431127.0.0.1 - - [04/Dec/2020 08:59:12] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 08:59:29,987Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 08:59:30,244https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 08:59:30,255Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 08:59:30,523https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 08:59:30,5282020-12-04T08:00
+DEBUG:2020-12-04 08:59:38,694Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 08:59:38,898https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 08:59:38,9082020-12-04T08:59
+INFO:2020-12-04 08:59:43,937127.0.0.1 - - [04/Dec/2020 08:59:43] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:00:01,891Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:00:02,117https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:00:02,127Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:00:03,807https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+ERROR:2020-12-04 09:00:03,877PyTTSx3 Endloop error
+ERROR:2020-12-04 09:00:05,880Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 129, in home
+    if check_alarms() is not None:
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 105, in check_alarms
+    s.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sched.py", line 151, in run
+    action(*argument, **kwargs)
+TypeError: announce() takes 1 positional argument but 214 were given
+INFO:2020-12-04 09:00:05,889127.0.0.1 - - [04/Dec/2020 09:00:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 09:01:34,810System starting
+INFO:2020-12-04 09:01:35,002 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 09:01:36,746127.0.0.1 - - [04/Dec/2020 09:01:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:01:39,704127.0.0.1 - - [04/Dec/2020 09:01:39] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:01:52,373Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:01:52,581https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:01:52,591Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:01:52,803https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:01:52,8082020-12-04T08:02
+INFO:2020-12-04 09:01:56,445127.0.0.1 - - [04/Dec/2020 09:01:56] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:02:06,172Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:02:06,395https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 09:02:06,4012020-12-04T09:02
+DEBUG:2020-12-04 09:02:06,437Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:02:06,687https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:02:06,698Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:02:06,943https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+ERROR:2020-12-04 09:02:07,425PyTTSx3 Endloop error
+ERROR:2020-12-04 09:02:08,979Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 131, in home
+    if check_alarms() is not None:
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 105, in check_alarms
+    s.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sched.py", line 151, in run
+    action(*argument, **kwargs)
+TypeError: announce() takes 1 positional argument but 214 were given
+INFO:2020-12-04 09:19:53,415System starting
+INFO:2020-12-04 09:19:53,543 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 09:19:56,592127.0.0.1 - - [04/Dec/2020 09:19:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:19:59,325127.0.0.1 - - [04/Dec/2020 09:19:59] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:20:10,889Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:20:11,301https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:20:11,414Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:20:11,687https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:20:11,6922020-12-04T08:21
+INFO:2020-12-04 09:20:18,546127.0.0.1 - - [04/Dec/2020 09:20:18] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:21:02,080Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:21:02,401https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:21:02,512Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:21:02,731https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+ERROR:2020-12-04 09:21:03,063PyTTSx3 Endloop error
+DEBUG:2020-12-04 09:21:03,126Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:21:03,479https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:21:03,490Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:21:03,699https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:21:04,099127.0.0.1 - - [04/Dec/2020 09:21:04] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:21:09,974Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:21:10,233https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:21:10,317Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:21:10,579https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+DEBUG:2020-12-04 09:21:11,023Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:21:11,293https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:21:11,305Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:21:11,520https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:21:11,960127.0.0.1 - - [04/Dec/2020 09:21:11] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:21:39,208Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:21:39,422https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:21:39,533Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:21:39,780https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+DEBUG:2020-12-04 09:21:40,245Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:21:40,602https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:21:40,680Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:21:40,905https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:21:41,210127.0.0.1 - - [04/Dec/2020 09:21:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:22:41,382127.0.0.1 - - [04/Dec/2020 09:22:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:23:33,338System starting
+INFO:2020-12-04 09:23:33,510 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:2020-12-04 09:23:41,571Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 128, in home
+    x=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 103, in check_alarms
+    return notification
+UnboundLocalError: local variable 'notification' referenced before assignment
+INFO:2020-12-04 09:23:41,576127.0.0.1 - - [04/Dec/2020 09:23:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:2020-12-04 09:23:58,961Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 128, in home
+    x=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 103, in check_alarms
+    return notification
+UnboundLocalError: local variable 'notification' referenced before assignment
+INFO:2020-12-04 09:23:58,962127.0.0.1 - - [04/Dec/2020 09:23:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 09:24:21,680System starting
+INFO:2020-12-04 09:24:21,794 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:2020-12-04 09:24:25,803Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 126, in home
+    x=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 103, in check_alarms
+    return notification
+UnboundLocalError: local variable 'notification' referenced before assignment
+INFO:2020-12-04 09:24:25,806127.0.0.1 - - [04/Dec/2020 09:24:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 09:30:20,744System starting
+INFO:2020-12-04 09:30:20,897 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 09:30:23,008127.0.0.1 - - [04/Dec/2020 09:30:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:31:23,180127.0.0.1 - - [04/Dec/2020 09:31:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:32:23,339127.0.0.1 - - [04/Dec/2020 09:32:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:33:23,489127.0.0.1 - - [04/Dec/2020 09:33:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:34:23,656127.0.0.1 - - [04/Dec/2020 09:34:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:35:23,820127.0.0.1 - - [04/Dec/2020 09:35:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:36:25,839127.0.0.1 - - [04/Dec/2020 09:36:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:37:25,989127.0.0.1 - - [04/Dec/2020 09:37:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:38:26,139127.0.0.1 - - [04/Dec/2020 09:38:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:38:49,438System starting
+INFO:2020-12-04 09:38:49,502 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:2020-12-04 09:38:51,086Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 132, in home
+    x=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 108, in check_alarms
+    return notification
+UnboundLocalError: local variable 'notification' referenced before assignment
+INFO:2020-12-04 09:38:51,092127.0.0.1 - - [04/Dec/2020 09:38:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 09:40:07,632System starting
+INFO:2020-12-04 09:40:07,759 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 09:40:11,061127.0.0.1 - - [04/Dec/2020 09:40:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:40:15,307127.0.0.1 - - [04/Dec/2020 09:40:15] "[32mGET /delete?alarm_item=go2%26news%3Dnews HTTP/1.1[0m" 302 -
+INFO:2020-12-04 09:40:15,315127.0.0.1 - - [04/Dec/2020 09:40:15] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:2020-12-04 09:40:16,236Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 134, in home
+    x=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 104, in check_alarms
+    if 'news' in alarms[len(alarms)-1]['content']:
+IndexError: list index out of range
+INFO:2020-12-04 09:40:16,239127.0.0.1 - - [04/Dec/2020 09:40:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 09:42:33,772System starting
+INFO:2020-12-04 09:42:33,917 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 09:42:38,036127.0.0.1 - - [04/Dec/2020 09:42:38] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:42:44,507Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:42:44,765https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 09:42:44,8692020-12-04T09:43
+DEBUG:2020-12-04 09:42:44,942Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:42:45,176https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:42:54,692Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:42:55,017https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:42:55,138Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:42:55,402https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:42:55,4082020-12-04T09:43
+DEBUG:2020-12-04 09:42:55,460Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:42:55,745https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:42:55,755Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:42:56,123https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+DEBUG:2020-12-04 09:42:59,746Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:42:59,993https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:43:00,004Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:43:00,231https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:43:00,237127.0.0.1 - - [04/Dec/2020 09:43:00] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:43:02,705Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:43:03,096https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 09:43:03,184127.0.0.1 - - [04/Dec/2020 09:43:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:43:05,015127.0.0.1 - - [04/Dec/2020 09:43:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:44:06,768127.0.0.1 - - [04/Dec/2020 09:44:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:45:06,901127.0.0.1 - - [04/Dec/2020 09:45:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:46:08,824127.0.0.1 - - [04/Dec/2020 09:46:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:47:09,089127.0.0.1 - - [04/Dec/2020 09:47:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:48:10,108127.0.0.1 - - [04/Dec/2020 09:48:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:49:10,390127.0.0.1 - - [04/Dec/2020 09:49:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:50:10,615127.0.0.1 - - [04/Dec/2020 09:50:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:51:10,806127.0.0.1 - - [04/Dec/2020 09:51:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:52:11,827127.0.0.1 - - [04/Dec/2020 09:52:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:53:12,048127.0.0.1 - - [04/Dec/2020 09:53:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:54:12,279127.0.0.1 - - [04/Dec/2020 09:54:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:55:12,474127.0.0.1 - - [04/Dec/2020 09:55:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:56:14,936System starting
+INFO:2020-12-04 09:56:15,084 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 09:56:20,784127.0.0.1 - - [04/Dec/2020 09:56:20] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 09:56:42,712Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:56:43,021https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:56:43,032Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:56:43,299https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 09:56:43,3042020-12-04T09:57
+DEBUG:2020-12-04 09:56:43,309Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:56:43,527https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:56:43,538Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 09:56:43,763https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+DEBUG:2020-12-04 09:56:54,248Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:56:54,589https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 09:56:54,6872020-12-05T09:56
+DEBUG:2020-12-04 09:56:54,692Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:56:54,904https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 09:56:58,303Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 09:56:58,544https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 09:56:58,646127.0.0.1 - - [04/Dec/2020 09:56:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:56:59,388127.0.0.1 - - [04/Dec/2020 09:56:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 09:57:23,008System starting
+INFO:2020-12-04 09:57:23,141 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:00:06,201System starting
+INFO:2020-12-04 10:00:06,339 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:00:08,463127.0.0.1 - - [04/Dec/2020 10:00:08] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:00:16,709Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:00:16,935https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:00:16,9422020-12-06T10:00
+DEBUG:2020-12-04 10:00:16,946Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:00:17,191https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:15:02,133System starting
+INFO:2020-12-04 10:15:13,346System starting
+INFO:2020-12-04 10:15:13,520 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:15:16,926127.0.0.1 - - [04/Dec/2020 10:15:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:22:39,749System starting
+INFO:2020-12-04 10:22:39,875 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:22:47,084127.0.0.1 - - [04/Dec/2020 10:22:47] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:2020-12-04 10:22:55,578Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 144, in home
+    refresh_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 102, in refresh_alarms
+    x=date(int(x[0]),int(x[1]), int(x[2]))
+NameError: name 'date' is not defined
+INFO:2020-12-04 10:23:13,076System starting
+INFO:2020-12-04 10:23:13,211 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:23:15,488127.0.0.1 - - [04/Dec/2020 10:23:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:23:17,871127.0.0.1 - - [04/Dec/2020 10:23:17] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:23:23,454Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:23:23,837https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:23:23,964Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:23:24,239https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+ERROR:2020-12-04 10:23:24,245Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 154, in home
+    notifications.append(get_weather())
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 56, in get_weather
+    + str(current_temperature) + "\n atmospheric pressure (in hPa unit) = "
+TypeError: bad operand type for unary +: 'str'
+INFO:2020-12-04 10:24:21,407System starting
+INFO:2020-12-04 10:24:21,559 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:24:23,567127.0.0.1 - - [04/Dec/2020 10:24:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:24:24,792127.0.0.1 - - [04/Dec/2020 10:24:24] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:24:29,480Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:24:29,702https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:24:29,8112020-12-05T10:24
+DEBUG:2020-12-04 10:24:29,816Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:24:30,215https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:28:22,888System starting
+INFO:2020-12-04 10:28:23,016 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:28:25,752127.0.0.1 - - [04/Dec/2020 10:28:25] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:28:32,794Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:28:33,033https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:28:33,1422020-12-04T10:29
+DEBUG:2020-12-04 10:28:33,146Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:28:33,484https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:28:33,596Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:28:33,945https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:42:50,345System starting
+INFO:2020-12-04 10:42:50,488 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:42:56,898127.0.0.1 - - [04/Dec/2020 10:42:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:42:58,553127.0.0.1 - - [04/Dec/2020 10:42:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:42:59,119127.0.0.1 - - [04/Dec/2020 10:42:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:42:59,651127.0.0.1 - - [04/Dec/2020 10:42:59] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:43:05,004Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:43:05,412https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:43:05,510Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:43:05,782https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 10:43:05,7852020-12-04T10:44
+DEBUG:2020-12-04 10:43:05,787Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:43:06,035https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:43:06,046Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:43:06,285https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+DEBUG:2020-12-04 10:43:09,529Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:43:09,773https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:43:09,863Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:43:10,117https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 10:43:10,123127.0.0.1 - - [04/Dec/2020 10:43:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:56:03,815System starting
+INFO:2020-12-04 10:56:05,063 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:56:08,894127.0.0.1 - - [04/Dec/2020 10:56:08] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:56:10,832127.0.0.1 - - [04/Dec/2020 10:56:10] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:56:26,663Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:56:27,119https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:56:27,125Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:56:27,351https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 10:56:27,3542020-12-04T09:57
+DEBUG:2020-12-04 10:56:27,356Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:56:27,601https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:56:27,606Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:56:27,833https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 10:56:27,835127.0.0.1 - - [04/Dec/2020 10:56:27] "[37mGET /?alarm=2020-12-04T09%3A57&two=You+are+done&news=news&weather=weather HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:56:39,154Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:56:39,413https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:56:39,4192020-12-04T10:56
+DEBUG:2020-12-04 10:56:39,423Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:56:39,664https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:57:08,677Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:57:08,924https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 10:57:08,9342020-12-04T10:56
+DEBUG:2020-12-04 10:57:09,195Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:57:09,438https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:57:09,448Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:57:09,711https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+ERROR:2020-12-04 10:57:09,938PyTTSx3 Endloop error
+DEBUG:2020-12-04 10:57:12,992Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:57:13,258https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:57:13,269Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:57:13,509https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 10:57:13,766127.0.0.1 - - [04/Dec/2020 10:57:13] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:57:15,464Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:57:15,706https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:57:15,714Starting new HTTPS connection (1): api.openweathermap.org:443
+INFO:2020-12-04 10:57:15,796127.0.0.1 - - [04/Dec/2020 10:57:15] "[32mGET /delete?alarm_item=Boy HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 10:57:16,024Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:57:16,060https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 10:57:16,335https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:57:16,444Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:57:16,684https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 10:57:16,808127.0.0.1 - - [04/Dec/2020 10:57:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:57:16,819127.0.0.1 - - [04/Dec/2020 10:57:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:57:17,457127.0.0.1 - - [04/Dec/2020 10:57:17] "[32mGET /delete?alarm_item=You+are+done HTTP/1.1[0m" 302 -
+INFO:2020-12-04 10:57:17,464127.0.0.1 - - [04/Dec/2020 10:57:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 10:58:51,389System starting
+INFO:2020-12-04 10:58:51,505 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 10:58:53,870127.0.0.1 - - [04/Dec/2020 10:58:53] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 10:59:01,865Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:59:02,250https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:59:02,294Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:59:02,518https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 10:59:02,5242020-12-04T09:58
+DEBUG:2020-12-04 10:59:02,527Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 10:59:02,965https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 10:59:02,983Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 10:59:03,226https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 10:59:03,232127.0.0.1 - - [04/Dec/2020 10:59:03] "[37mGET /?alarm=2020-12-04T09%3A58&two=go2&news=news&weather=weather HTTP/1.1[0m" 200 -
+ERROR:2020-12-04 10:59:04,999Exception on /delete [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 182, in delete_alarms_log
+    if line[:4] !="INFO" or ("alarm" not in line and "/delete" not in line)or name not in line:
+TypeError: 'in <string>' requires string as left operand, not NoneType
+INFO:2020-12-04 10:59:05,005127.0.0.1 - - [04/Dec/2020 10:59:05] "[35m[1mGET /delete?notif=weather HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:07:56,538System starting
+INFO:2020-12-04 11:07:56,673 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:07:58,548127.0.0.1 - - [04/Dec/2020 11:07:58] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:08:04,019Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:08:04,461https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:08:04,4732020-12-05T11:07
+DEBUG:2020-12-04 11:08:04,477Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:08:04,693https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:08:06,261127.0.0.1 - - [04/Dec/2020 11:08:06] "[33mGET /delete?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 404 -
+INFO:2020-12-04 11:08:20,286System starting
+INFO:2020-12-04 11:08:20,436 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:08:22,263127.0.0.1 - - [04/Dec/2020 11:08:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:08:27,332127.0.0.1 - - [04/Dec/2020 11:08:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:08:30,207127.0.0.1 - - [04/Dec/2020 11:08:30] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:08:35,103Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:08:35,353https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:08:35,4492020-12-05T11:08
+DEBUG:2020-12-04 11:08:35,452Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:08:35,757https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+ERROR:2020-12-04 11:08:37,166Exception on /deletenotification [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 202, in delete_notif
+    print(notifications)
+NameError: name 'notifications' is not defined
+INFO:2020-12-04 11:08:37,172127.0.0.1 - - [04/Dec/2020 11:08:37] "[35m[1mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:09:51,744System starting
+INFO:2020-12-04 11:09:51,859 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:09:57,479127.0.0.1 - - [04/Dec/2020 11:09:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:09:58,801127.0.0.1 - - [04/Dec/2020 11:09:58] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:10:03,632Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:10:03,889https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:10:03,8962020-12-04T11:10
+DEBUG:2020-12-04 11:10:03,900Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:10:04,166https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+ERROR:2020-12-04 11:10:05,648Exception on /deletenotification [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 202, in delete_notif
+    print(notifications)
+NameError: name 'notifications' is not defined
+INFO:2020-12-04 11:10:05,649127.0.0.1 - - [04/Dec/2020 11:10:05] "[35m[1mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:10:22,250System starting
+INFO:2020-12-04 11:10:22,346 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:10:23,511127.0.0.1 - - [04/Dec/2020 11:10:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:10:24,924127.0.0.1 - - [04/Dec/2020 11:10:24] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:10:29,470Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:10:29,787https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:10:29,9022020-12-04T11:11
+DEBUG:2020-12-04 11:10:29,905Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:10:30,146https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:10:31,130127.0.0.1 - - [04/Dec/2020 11:10:31] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:10:31,140Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:10:31,397https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:10:31,405127.0.0.1 - - [04/Dec/2020 11:10:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:10:35,051127.0.0.1 - - [04/Dec/2020 11:10:35] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:10:35,061Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:10:35,260https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:10:35,268127.0.0.1 - - [04/Dec/2020 11:10:35] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:11:35,438Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:11:35,706https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:11:35,713127.0.0.1 - - [04/Dec/2020 11:11:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:12:20,700System starting
+INFO:2020-12-04 11:12:20,830 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:12:23,287127.0.0.1 - - [04/Dec/2020 11:12:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:12:24,898127.0.0.1 - - [04/Dec/2020 11:12:24] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:12:31,107Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:12:31,434https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:12:31,5182020-12-04T12:12
+DEBUG:2020-12-04 11:12:31,523Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:12:31,946https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:12:33,350Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:12:33,604https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:12:33,652127.0.0.1 - - [04/Dec/2020 11:12:33] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:12:33,661Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:12:33,991https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:12:34,073127.0.0.1 - - [04/Dec/2020 11:12:34] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:13:34,212Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:13:34,494https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:13:34,505127.0.0.1 - - [04/Dec/2020 11:13:34] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:14:34,698Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:14:35,035https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:14:35,139127.0.0.1 - - [04/Dec/2020 11:14:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:14:52,004System starting
+INFO:2020-12-04 11:14:52,063 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:14:52,815127.0.0.1 - - [04/Dec/2020 11:14:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:14:54,021127.0.0.1 - - [04/Dec/2020 11:14:54] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:14:59,089Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:14:59,390https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:14:59,3972020-12-04T11:15
+DEBUG:2020-12-04 11:14:59,401Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:14:59,681https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:15:02,594127.0.0.1 - - [04/Dec/2020 11:15:02] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:15:02,603Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:15:02,978https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:15:03,024127.0.0.1 - - [04/Dec/2020 11:15:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:15:58,812System starting
+INFO:2020-12-04 11:15:58,872 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:15:59,592127.0.0.1 - - [04/Dec/2020 11:15:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:16:01,152127.0.0.1 - - [04/Dec/2020 11:16:01] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:16:06,771Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:16:07,003https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:16:07,0122020-12-04T11:17
+DEBUG:2020-12-04 11:16:07,015Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:16:07,386https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:16:08,795127.0.0.1 - - [04/Dec/2020 11:16:08] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:16:08,802Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:16:09,035https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:16:09,043127.0.0.1 - - [04/Dec/2020 11:16:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:16:58,873System starting
+INFO:2020-12-04 11:16:59,007 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:17:01,674127.0.0.1 - - [04/Dec/2020 11:17:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:17:03,648127.0.0.1 - - [04/Dec/2020 11:17:03] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:17:08,909Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:17:09,163https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:17:09,175Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:17:09,448https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:17:09,4542020-12-04T11:18
+DEBUG:2020-12-04 11:17:09,458Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:17:09,849https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:17:09,875Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:17:10,180https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:17:11,875127.0.0.1 - - [04/Dec/2020 11:17:11] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:17:11,883Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:17:12,203https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:17:12,304Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:17:12,563https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:17:12,569127.0.0.1 - - [04/Dec/2020 11:17:12] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:18:12,734Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:18:12,985https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:18:12,995Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:18:13,214https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:18:13,221127.0.0.1 - - [04/Dec/2020 11:18:13] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:19:13,380Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:19:13,742https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:19:13,752Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:19:13,966https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:19:13,973127.0.0.1 - - [04/Dec/2020 11:19:13] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:20:14,133Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:20:14,450https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:20:14,563Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:20:14,823https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:20:14,830127.0.0.1 - - [04/Dec/2020 11:20:14] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:21:15,020Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:21:15,331https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:21:15,438Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:21:15,684https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:21:15,691127.0.0.1 - - [04/Dec/2020 11:21:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:22:08,311System starting
+INFO:2020-12-04 11:22:08,430 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:22:10,104127.0.0.1 - - [04/Dec/2020 11:22:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:22:11,144127.0.0.1 - - [04/Dec/2020 11:22:11] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:22:16,860Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:22:17,215https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:22:17,343Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:22:17,581https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:22:17,5882020-12-04T11:23
+DEBUG:2020-12-04 11:22:17,592Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:22:17,959https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:22:18,019Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:22:18,230https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:22:21,156127.0.0.1 - - [04/Dec/2020 11:22:21] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:22:21,166Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:22:21,415https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:22:21,421Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:22:21,664https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:22:21,670127.0.0.1 - - [04/Dec/2020 11:22:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:22:48,983System starting
+INFO:2020-12-04 11:22:49,086 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:22:54,092127.0.0.1 - - [04/Dec/2020 11:22:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:22:55,382127.0.0.1 - - [04/Dec/2020 11:22:55] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:23:00,571Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:23:00,814https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:23:00,8202020-12-04T11:23
+DEBUG:2020-12-04 11:23:00,823Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:23:01,272https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:23:03,345127.0.0.1 - - [04/Dec/2020 11:23:03] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:23:03,356Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:23:03,613https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:23:03,662127.0.0.1 - - [04/Dec/2020 11:23:03] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:24:03,783Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:24:04,088https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:24:04,240127.0.0.1 - - [04/Dec/2020 11:24:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:24:27,728System starting
+INFO:2020-12-04 11:24:27,885 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:24:29,480127.0.0.1 - - [04/Dec/2020 11:24:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:24:31,311127.0.0.1 - - [04/Dec/2020 11:24:31] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:24:36,387Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:24:36,743https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:24:36,8312020-12-04T11:25
+DEBUG:2020-12-04 11:24:36,833Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:24:37,093https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:24:38,327127.0.0.1 - - [04/Dec/2020 11:24:38] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:24:38,339Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:24:38,670https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:24:38,861127.0.0.1 - - [04/Dec/2020 11:24:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:25:01,077System starting
+INFO:2020-12-04 11:25:01,216 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:25:02,542127.0.0.1 - - [04/Dec/2020 11:25:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:25:04,242127.0.0.1 - - [04/Dec/2020 11:25:04] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:25:09,978Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:25:10,290https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:25:10,3962020-12-04T11:26
+DEBUG:2020-12-04 11:25:10,400Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:25:10,643https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:25:12,720127.0.0.1 - - [04/Dec/2020 11:25:12] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:25:12,729Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:25:12,956https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+ERROR:2020-12-04 11:25:13,073Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 170, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 141, in check_alarms
+    notification.pop(i)
+TypeError: 'dict' object cannot be interpreted as an integer
+INFO:2020-12-04 11:25:13,079127.0.0.1 - - [04/Dec/2020 11:25:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:25:41,512System starting
+INFO:2020-12-04 11:25:41,590 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:25:42,440127.0.0.1 - - [04/Dec/2020 11:25:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:25:43,809127.0.0.1 - - [04/Dec/2020 11:25:43] "[32mGET /deletealarm?alarm_item=go1%26news%3Dnews HTTP/1.1[0m" 302 -
+INFO:2020-12-04 11:25:43,818127.0.0.1 - - [04/Dec/2020 11:25:43] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:25:49,353Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:25:49,714https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:25:49,787Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:25:50,023https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:25:50,0262020-12-04T11:27
+DEBUG:2020-12-04 11:25:50,030Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:25:50,360https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:25:50,467Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:25:50,702https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:25:52,851127.0.0.1 - - [04/Dec/2020 11:25:52] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:25:52,861Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:25:53,197https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:25:53,283Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:25:53,493https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+ERROR:2020-12-04 11:25:53,567Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 170, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 141, in check_alarms
+    notification[i].remove()
+TypeError: list indices must be integers or slices, not dict
+INFO:2020-12-04 11:25:53,570127.0.0.1 - - [04/Dec/2020 11:25:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:26:32,777System starting
+INFO:2020-12-04 11:26:32,902 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:26:35,464127.0.0.1 - - [04/Dec/2020 11:26:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:26:36,842127.0.0.1 - - [04/Dec/2020 11:26:36] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:26:41,855Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:26:42,108https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:26:42,121Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:26:42,369https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:26:42,3742020-12-04T11:27
+DEBUG:2020-12-04 11:26:42,378Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:26:42,761https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:26:42,845Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:26:43,124https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:26:45,107127.0.0.1 - - [04/Dec/2020 11:26:45] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:26:45,120Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:26:45,342https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:26:45,450Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:26:45,686https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:26:45,748127.0.0.1 - - [04/Dec/2020 11:26:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:26:48,415127.0.0.1 - - [04/Dec/2020 11:26:48] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:26:48,425Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:26:48,805https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:26:48,866Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:26:49,184https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:26:49,312127.0.0.1 - - [04/Dec/2020 11:26:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:27:10,274System starting
+INFO:2020-12-04 11:27:10,355 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:27:11,258127.0.0.1 - - [04/Dec/2020 11:27:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:27:12,547127.0.0.1 - - [04/Dec/2020 11:27:12] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:27:21,415Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:27:21,675https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:27:21,6802020-12-04T11:28
+ERROR:2020-12-04 11:27:21,681Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 170, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 133, in check_alarms
+    notification.append(get_weather())
+UnboundLocalError: local variable 'notification' referenced before assignment
+INFO:2020-12-04 11:28:05,530System starting
+INFO:2020-12-04 11:28:05,613 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:28:06,861127.0.0.1 - - [04/Dec/2020 11:28:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:28:09,286127.0.0.1 - - [04/Dec/2020 11:28:09] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:28:18,935Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:28:19,194https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:28:19,2002020-12-04T11:29
+DEBUG:2020-12-04 11:28:19,205Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:28:19,449https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:28:22,665127.0.0.1 - - [04/Dec/2020 11:28:22] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:28:22,675Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:28:22,885https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:28:22,957Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:28:23,201https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:28:23,247127.0.0.1 - - [04/Dec/2020 11:28:23] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:28:38,133Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:28:38,468https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:28:38,572Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:28:38,782https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:28:38,7882020-12-05T11:28
+DEBUG:2020-12-04 11:28:38,792Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:28:39,123https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:28:39,220Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:28:39,452https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:29:39,708Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:29:40,066https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:29:40,177Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:29:40,414https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:29:40,644127.0.0.1 - - [04/Dec/2020 11:29:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:29:49,551System starting
+INFO:2020-12-04 11:29:49,665 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:29:51,394127.0.0.1 - - [04/Dec/2020 11:29:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:29:52,674127.0.0.1 - - [04/Dec/2020 11:29:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:29:53,210127.0.0.1 - - [04/Dec/2020 11:29:53] "[32mGET /deletealarm?alarm_item=he%26news%3Dnews%26weather%3Dweather HTTP/1.1[0m" 302 -
+INFO:2020-12-04 11:29:53,216127.0.0.1 - - [04/Dec/2020 11:29:53] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:29:59,085Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:29:59,339https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:29:59,350Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:29:59,556https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:29:59,5622020-12-04T11:30
+DEBUG:2020-12-04 11:29:59,566Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:29:59,792https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:29:59,900Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:30:00,209https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+ERROR:2020-12-04 11:30:00,215Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 172, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 139, in check_alarms
+    for x in banned:
+UnboundLocalError: local variable 'banned' referenced before assignment
+INFO:2020-12-04 11:30:33,974System starting
+INFO:2020-12-04 11:30:34,091 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:30:35,837127.0.0.1 - - [04/Dec/2020 11:30:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:30:37,114127.0.0.1 - - [04/Dec/2020 11:30:37] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:30:42,078Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:30:42,288https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:30:42,297Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:30:42,562https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:30:42,5672020-12-04T11:31
+DEBUG:2020-12-04 11:30:42,571Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:30:42,811https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:30:42,822Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:30:43,095https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+ERROR:2020-12-04 11:30:43,101Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 172, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 139, in check_alarms
+    for x in banned:
+UnboundLocalError: local variable 'banned' referenced before assignment
+INFO:2020-12-04 11:31:14,741System starting
+INFO:2020-12-04 11:31:14,850 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:31:16,741127.0.0.1 - - [04/Dec/2020 11:31:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:31:17,939127.0.0.1 - - [04/Dec/2020 11:31:17] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:31:22,138Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:22,363https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:22,373Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:22,567https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:22,5702020-12-04T11:32
+DEBUG:2020-12-04 11:31:22,573Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:22,777https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:22,882Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:23,086https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:25,010127.0.0.1 - - [04/Dec/2020 11:31:25] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:25,018Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:25,224https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:25,326Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:25,539https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:25,610127.0.0.1 - - [04/Dec/2020 11:31:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:31:27,523127.0.0.1 - - [04/Dec/2020 11:31:27] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:27,534Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:27,775https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:27,784Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:28,039https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:28,121127.0.0.1 - - [04/Dec/2020 11:31:28] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:31:29,804127.0.0.1 - - [04/Dec/2020 11:31:29] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:29,814Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:30,092https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:30,103Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:30,319https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:30,504127.0.0.1 - - [04/Dec/2020 11:31:30] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:31:39,063Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:39,294https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:31:39,2992020-12-04T11:32
+DEBUG:2020-12-04 11:31:39,302Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:39,571https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:31:41,626127.0.0.1 - - [04/Dec/2020 11:31:41] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:41,638Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:41,846https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:42,525Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:42,762https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:31:42,845127.0.0.1 - - [04/Dec/2020 11:31:42] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:31:49,188Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:49,603https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:49,618Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:49,854https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:49,8602020-12-04T11:32
+DEBUG:2020-12-04 11:31:49,864Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:50,106https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:50,117Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:50,330https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:52,152127.0.0.1 - - [04/Dec/2020 11:31:52] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:52,162Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:52,367https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:52,476Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:52,738https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:52,834127.0.0.1 - - [04/Dec/2020 11:31:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:31:53,240127.0.0.1 - - [04/Dec/2020 11:31:53] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:53,249Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:53,462https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:53,569Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:53,785https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:53,892127.0.0.1 - - [04/Dec/2020 11:31:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:31:55,445127.0.0.1 - - [04/Dec/2020 11:31:55] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:31:55,456Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:31:55,676https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:31:55,782Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:31:56,024https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:31:56,162127.0.0.1 - - [04/Dec/2020 11:31:56] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:32:56,276Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:32:56,488https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:32:56,498Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:32:56,720https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:32:57,084127.0.0.1 - - [04/Dec/2020 11:32:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:33:50,796System starting
+INFO:2020-12-04 11:33:50,850 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:33:51,891127.0.0.1 - - [04/Dec/2020 11:33:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:33:52,828127.0.0.1 - - [04/Dec/2020 11:33:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:33:53,296127.0.0.1 - - [04/Dec/2020 11:33:53] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:34:02,674Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:34:02,892https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:34:03,002Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:34:03,291https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:34:03,2972020-12-04T13:33
+DEBUG:2020-12-04 11:34:03,301Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:34:03,773https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:34:03,872Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:34:04,126https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:34:06,582127.0.0.1 - - [04/Dec/2020 11:34:06] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:34:06,591Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:34:06,787https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:34:06,891Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:34:07,191https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:34:07,195127.0.0.1 - - [04/Dec/2020 11:34:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:34:10,434127.0.0.1 - - [04/Dec/2020 11:34:10] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:34:10,443Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:34:10,699https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:34:10,711Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:34:10,921https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:34:10,927127.0.0.1 - - [04/Dec/2020 11:34:10] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:35:11,093Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:35:11,364https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:35:11,375Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:35:11,639https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:35:11,644127.0.0.1 - - [04/Dec/2020 11:35:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:35:31,232System starting
+INFO:2020-12-04 11:35:31,359 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:35:34,637127.0.0.1 - - [04/Dec/2020 11:35:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:35:35,663127.0.0.1 - - [04/Dec/2020 11:35:35] "[32mGET /deletealarm?alarm_item=go1%26news%3Dnews%26weather%3Dweather HTTP/1.1[0m" 302 -
+INFO:2020-12-04 11:35:35,672127.0.0.1 - - [04/Dec/2020 11:35:35] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:35:40,805Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:35:41,148https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:35:41,251Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:35:41,468https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:35:41,4732020-12-04T11:36
+DEBUG:2020-12-04 11:35:41,478Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:35:41,703https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:35:41,715Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:35:41,968https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+ERROR:2020-12-04 11:35:43,490Exception on /deletenotification [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 214, in delete_notif
+    name = request.args.get(value)
+NameError: name 'value' is not defined
+INFO:2020-12-04 11:35:43,496127.0.0.1 - - [04/Dec/2020 11:35:43] "[35m[1mGET /deletenotification?notif=weather HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:35:57,311System starting
+INFO:2020-12-04 11:35:57,372 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:35:58,504127.0.0.1 - - [04/Dec/2020 11:35:58] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:35:59,746127.0.0.1 - - [04/Dec/2020 11:35:59] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:36:04,631Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:36:04,860https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:36:04,871Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:36:05,106https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:36:05,1122020-12-04T11:38
+DEBUG:2020-12-04 11:36:05,116Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:36:05,341https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:36:05,353Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:36:05,771https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:36:06,860127.0.0.1 - - [04/Dec/2020 11:36:06] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:36:06,870Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:36:07,087https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:36:07,097Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:36:07,301https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:36:07,305127.0.0.1 - - [04/Dec/2020 11:36:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:36:19,697System starting
+INFO:2020-12-04 11:36:19,744 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:36:20,481127.0.0.1 - - [04/Dec/2020 11:36:20] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:36:25,784Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:36:26,013https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:36:26,024Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:36:26,239https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:36:26,2442020-12-04T11:38
+DEBUG:2020-12-04 11:36:26,248Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:36:26,474https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:36:26,484Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:36:26,730https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:36:28,416127.0.0.1 - - [04/Dec/2020 11:36:28] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:36:28,426Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:36:29,691https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:36:29,783Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:36:30,024https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:36:30,030127.0.0.1 - - [04/Dec/2020 11:36:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:37:30,307System starting
+INFO:2020-12-04 11:37:30,366 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:37:30,569127.0.0.1 - - [04/Dec/2020 11:37:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:37:32,258127.0.0.1 - - [04/Dec/2020 11:37:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:37:32,673127.0.0.1 - - [04/Dec/2020 11:37:32] "[32mGET /deletealarm?alarm_item=go1%26news%3Dnews%26weather%3Dweather HTTP/1.1[0m" 302 -
+INFO:2020-12-04 11:37:32,681127.0.0.1 - - [04/Dec/2020 11:37:32] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:37:39,340Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:37:39,629https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:37:39,641Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:37:39,861https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:37:39,8662020-12-04T11:38
+DEBUG:2020-12-04 11:37:39,870Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:37:40,191https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:37:40,305Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:37:40,513https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:37:41,930127.0.0.1 - - [04/Dec/2020 11:37:41] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:37:41,939Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:37:42,273https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:37:42,372Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:37:42,609https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:37:42,948127.0.0.1 - - [04/Dec/2020 11:37:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:38:12,932System starting
+INFO:2020-12-04 11:38:13,054 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:38:14,164127.0.0.1 - - [04/Dec/2020 11:38:14] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:38:54,817Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:38:55,079https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:38:55,091Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:38:55,332https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:38:55,3382020-12-04T11:39
+DEBUG:2020-12-04 11:38:55,342Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:38:55,690https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:38:55,794Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:38:55,841Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:38:56,030https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:38:56,145https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:38:56,254Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:38:56,500https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:38:56,5052020-12-04T11:39
+DEBUG:2020-12-04 11:38:56,510Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:38:56,752https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:38:56,764Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:38:58,224https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:39:00,215127.0.0.1 - - [04/Dec/2020 11:39:00] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:39:00,227Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:39:00,565https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:39:00,661Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:39:00,936https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:39:01,037127.0.0.1 - - [04/Dec/2020 11:39:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:39:05,976127.0.0.1 - - [04/Dec/2020 11:39:05] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:39:05,992Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:39:06,241https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:39:06,258Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:39:06,510https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:39:06,628127.0.0.1 - - [04/Dec/2020 11:39:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:39:10,590127.0.0.1 - - [04/Dec/2020 11:39:10] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:39:10,604Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:39:11,011https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:39:11,026Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:39:11,286https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:39:11,467127.0.0.1 - - [04/Dec/2020 11:39:11] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:40:11,617Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:40:11,984https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:40:12,090Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:40:12,327https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:40:12,646127.0.0.1 - - [04/Dec/2020 11:40:12] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:41:13,373Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:41:13,629https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:41:13,640Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:41:13,895https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:41:14,247127.0.0.1 - - [04/Dec/2020 11:41:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:42:09,243System starting
+INFO:2020-12-04 11:42:09,348 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:42:14,436127.0.0.1 - - [04/Dec/2020 11:42:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:42:14,624127.0.0.1 - - [04/Dec/2020 11:42:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:42:15,552127.0.0.1 - - [04/Dec/2020 11:42:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:42:16,000127.0.0.1 - - [04/Dec/2020 11:42:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:42:16,488127.0.0.1 - - [04/Dec/2020 11:42:16] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:42:21,252Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:42:21,512https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:42:21,523Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:42:21,794https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:42:21,7992020-12-04T11:43
+DEBUG:2020-12-04 11:42:21,803Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:42:22,058https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:42:22,069Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:42:22,323https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:42:24,840127.0.0.1 - - [04/Dec/2020 11:42:24] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:42:24,850Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:42:25,256https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:42:25,289Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:42:25,521https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+ERROR:2020-12-04 11:42:25,525Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 172, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 140, in check_alarms
+    print(i['title'], " i ", x)
+TypeError: string indices must be integers
+INFO:2020-12-04 11:42:25,530127.0.0.1 - - [04/Dec/2020 11:42:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:43:06,595System starting
+INFO:2020-12-04 11:43:06,710 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:43:09,463127.0.0.1 - - [04/Dec/2020 11:43:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:43:11,357127.0.0.1 - - [04/Dec/2020 11:43:11] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:43:19,277Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:43:19,765https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:43:19,903Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:43:20,321https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:43:20,3262020-12-04T11:44
+DEBUG:2020-12-04 11:43:20,330Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:43:20,648https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:43:20,748Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:43:21,008https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:43:22,741127.0.0.1 - - [04/Dec/2020 11:43:22] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:43:22,750Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:43:23,063https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:43:23,169Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:43:23,405https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+ERROR:2020-12-04 11:43:23,410Exception on / [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 172, in home
+    temp=check_alarms()
+  File "/Users/jakubdavison/Desktop/python/CA3/CA3.py", line 140, in check_alarms
+    print(i['title'], " i ", x)
+TypeError: string indices must be integers
+INFO:2020-12-04 11:43:23,413127.0.0.1 - - [04/Dec/2020 11:43:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:2020-12-04 11:43:55,188System starting
+INFO:2020-12-04 11:43:55,304 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:2020-12-04 11:43:57,510127.0.0.1 - - [04/Dec/2020 11:43:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:43:58,677127.0.0.1 - - [04/Dec/2020 11:43:58] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:44:03,254Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:03,493https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:44:03,595Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:03,820https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:03,8262020-12-04T11:44
+DEBUG:2020-12-04 11:44:03,830Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:04,141https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:44:04,250Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:04,506https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:06,692127.0.0.1 - - [04/Dec/2020 11:44:06] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:44:06,702Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:06,960https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:44:06,970Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:07,217https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:07,293127.0.0.1 - - [04/Dec/2020 11:44:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:44:16,739127.0.0.1 - - [04/Dec/2020 11:44:16] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:44:16,750Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:17,075https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:44:17,181Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:17,395https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:44:17,520Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:17,783https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:44:17,793Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:18,029https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:18,148127.0.0.1 - - [04/Dec/2020 11:44:18] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:44:27,878Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:28,353https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:44:28,4462020-12-04T11:45
+DEBUG:2020-12-04 11:44:28,450Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:28,710https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:44:35,717127.0.0.1 - - [04/Dec/2020 11:44:35] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:44:35,726Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:36,120https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:44:36,203Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:44:36,443https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+INFO:2020-12-04 11:44:36,501127.0.0.1 - - [04/Dec/2020 11:44:36] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:44:42,399Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:42,665https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:42,6702020-12-04T11:45
+DEBUG:2020-12-04 11:44:42,675Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:42,893https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:45,053127.0.0.1 - - [04/Dec/2020 11:44:45] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:44:45,062Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:45,275https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:44:45,317Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:45,562https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:45,599127.0.0.1 - - [04/Dec/2020 11:44:45] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:44:47,456Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:47,693https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:44:47,753Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:47,995https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:48,033127.0.0.1 - - [04/Dec/2020 11:44:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:44:48,827127.0.0.1 - - [04/Dec/2020 11:44:48] "[32mGET /deletealarm?alarm_item=hello HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:44:48,837Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:44:49,081https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:44:49,124Starting new HTTPS connection (1): api.openweathermap.org:443
+INFO:2020-12-04 11:44:49,267127.0.0.1 - - [04/Dec/2020 11:44:49] "[32mGET /deletealarm?alarm_item=kij HTTP/1.1[0m" 302 -
+INFO:2020-12-04 11:44:49,275127.0.0.1 - - [04/Dec/2020 11:44:49] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:44:49,363https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:44:49,392127.0.0.1 - - [04/Dec/2020 11:44:49] "[37mGET / HTTP/1.1[0m" 200 -
+DEBUG:2020-12-04 11:45:01,910Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:45:02,335https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:45:02,345Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:45:02,709https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:45:02,7142020-12-04T11:45
+DEBUG:2020-12-04 11:45:02,719Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:45:03,153https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:45:03,161Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:45:03,521https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 466
+INFO:2020-12-04 11:45:04,902127.0.0.1 - - [04/Dec/2020 11:45:04] "[32mGET /deletenotification?notif=NHS+could+escape+winter+crisis+as+UK+‘almost+free+of+flu’+%26+Covid+rates+falling+across+UK+-+The+Sun HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:45:04,911Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:45:05,140https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:45:05,151Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:45:05,376https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:45:05,470127.0.0.1 - - [04/Dec/2020 11:45:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:2020-12-04 11:45:06,419127.0.0.1 - - [04/Dec/2020 11:45:06] "[32mGET /deletenotification?notif=weather HTTP/1.1[0m" 302 -
+DEBUG:2020-12-04 11:45:06,429Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:45:06,677https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:45:06,782Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:45:07,003https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+DEBUG:2020-12-04 11:45:07,086Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:2020-12-04 11:45:07,328https://newsapi.org:443 "GET /v2/top-headlines?country=gb&apiKey=2238be85aa7e4eab80a8ffd7fdd028bf HTTP/1.1" 200 None
+DEBUG:2020-12-04 11:45:07,338Starting new HTTPS connection (1): api.openweathermap.org:443
+DEBUG:2020-12-04 11:45:07,612https://api.openweathermap.org:443 "GET /data/2.5/weather?q=London&APPID=06de39553ee10951108a314f1dc90798 HTTP/1.1" 200 478
+INFO:2020-12-04 11:45:07,687127.0.0.1 - - [04/Dec/2020 11:45:07] "[37mGET / HTTP/1.1[0m" 200 -
